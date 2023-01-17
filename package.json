@@ -1,0 +1,22 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "QR Code Generator",
+  "scripts": {
+    "start": "yarn parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorbritto/qrcode-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorbritto/qrcode-generator/issues"
+  },
+  "homepage": "https://github.com/vitorbritto/qrcode-generator#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
