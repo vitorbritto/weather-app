@@ -45,6 +45,8 @@ const getWeatherData = async () => {
 
 const loadWeatherData = data => {
     place.innerHTML = `${data.name}, ${data.country}`;
-    degress.innerHTML = `Temperatura: ${Math.floor(data.main.temp)}&ordm; C`;
+    degress.innerHTML = `Temperature: ${Math.floor(data.main.temp)}&ordm; C`;
     img.src = `${WEATHER_TEMP_URL}/${data.weather[0].icon}@2x.png`;
+    wind.innerHTML = `Wind: ${data.wind.speed} km/h`;
+    content.style.display = "flex";
 }
